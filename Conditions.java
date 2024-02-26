@@ -49,7 +49,7 @@ public class Conditions {
     		default -> System.out.println("Ce n'est plus un chiffre, mais un nombre");
     	}
         
-        // Nouveanu switch case sous forme d'expression
+        // Nouveau switch case sous forme d'expression
         // Attention au ; a la fin.
     	String result = switch (a) {
 			case 0, 1, 2, 3, 4 -> "petit chiffre";
