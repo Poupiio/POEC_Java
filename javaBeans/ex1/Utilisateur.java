@@ -26,39 +26,32 @@ public class Utilisateur implements Serializable {
 	public int getId() {
 		return id;
 	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
 	public String getNom() {
 		return nom;
 	}
-
-	public void setNom(String nom) {
-		this.nom = nom;
-	}
-
 	public String getMdp() {
 		return mdp;
 	}
-
-	public void setMdp(String mdp) {
-		this.mdp = mdp;
-	}
-
 	public String getCourriel() {
 		return courriel;
 	}
-
-	public void setCourriel(String courriel) {
-		this.courriel = courriel;
-	}
-
 	public String getAcces() {
 		return acces;
 	}
-
+	
+	
+	public void setId(int id) {
+		this.id = id;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public void setMdp(String mdp) {
+		this.mdp = mdp;
+	}
+	public void setCourriel(String courriel) {
+		this.courriel = courriel;
+	}
 	public void setAcces(String acces) {
 		this.acces = acces;
 	}
