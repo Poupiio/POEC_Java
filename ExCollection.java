@@ -50,7 +50,7 @@ public class ExCollection {
     	System.out.println();
         
         // Supprimer des elements de l'ArrayList
-    	maListe.remove(2);
+    	maListe.remove("élément 1");
     	maListe.remove(0);
     	
     	System.out.println();
